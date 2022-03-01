@@ -1,0 +1,106 @@
+header {
+  display: flex;
+  padding-left: 100px;
+  padding-top: 40px;
+  justify-content: end;
+}
+
+.logo {
+  display: flex;
+}
+
+#m {
+  background-color: black;
+  border-radius: 50%;
+  color: gold;
+  padding: 20px;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+#mixture {
+  font-size: 30px;
+  font-weight: 700;
+  font-style:70%;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.menu {
+  position: relative;
+  margin-left: 200px;
+  margin-right: 100px;
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+ font-weight: 300;
+}
+
+.menu div:hover {
+font-weight: 800;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: none;
+  border: 1px solid black;
+  border-radius: 10%;
+  padding: 5px;
+}
+
+.list {
+  margin-top: 10px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  list-style-type: none;
+  font-size: large;
+  font-style: italic;
+  color: aliceblue;
+  line-height: 2.5;
+}
+
+.list li:hover {
+  background-color: gold;
+  color: black;
+  width: 100%;
+}
+
+@media (max-width: 850px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  img {
+    width: 30px;
+    height: 30px;
+    display: block;
+    margin-top: 40px;
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 1200px) {
+.menu{
+    margin-left: 100px;
+    margin-right: 50px;
+}
+}
+
+@media (max-width: 980px) {
+    .menu{
+        margin-left: 50px;
+        margin-right: 20px;
+    }
+}
